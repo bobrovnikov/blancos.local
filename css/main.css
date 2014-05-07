@@ -97,9 +97,74 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face{
+    font-family: 'WebSymbolsLigaRegular';
+    src: url('fonts/websymbolsligaregular.eot');
+    src: url('fonts/websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/websymbolsligaregular.woff') format('woff'),
+    url('fonts/websymbolsligaregular.ttf') format('truetype'),
+    url('fonts/websymbolsligaregular.svg#WebSymbolsRegular') format('svg');
+}
 
+body {
+    background: #000 url(../img/sidebar-background.png) no-repeat 0 0;
+    font: 14px/14px Arial;
+}
 
+.layout {
+    width: 100%;
+    table-layout: fixed;
+}
 
+.layout td {
+    vertical-align: top;
+}
+
+.sidebar {
+    position: relative;
+    width: 215px;
+}
+
+.main-menu {
+    font: 14px/14px WebSymbolsLigaRegular, Arial;
+}
+
+.main-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../img/blancos-letter-big.png) no-repeat 0 0;
+    height: 126px;
+    width: 195px;
+}
+
+.main-logo {
+    background: url(../img/logo.png) no-repeat 0 0;
+    width: 460px;
+    height: 122px;
+}
+
+.content {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 7px 0 0 7px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.content-width {
+    max-width: 1150px;
+    min-width: 750px;
+}
+
+.content footer {
+    background: rgb(237, 237, 237);
+}
 
 
 
@@ -213,6 +278,10 @@ textarea {
 .clearfix {
     *zoom: 1;
 }
+
+.fl {float: left}
+.fr {float: right}
+.tar {text-align: right}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
