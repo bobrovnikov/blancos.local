@@ -235,16 +235,32 @@ body {
     background-position: 0 0;
 }
 
+.link-rss:hover {
+    background-position: 0 -21px;
+}
+
 .link-twitter {
     background-position: -31px 0;
+}
+
+.link-twitter:hover {
+    background-position: -31px -21px;
 }
 
 .link-facebook {
     background-position: -58px 0;
 }
 
+.link-facebook:hover {
+    background-position: -58px -21px;
+}
+
 .link-youtube {
     background-position: -86px 0;
+}
+
+.link-youtube:hover {
+    background-position: -86px -21px;
 }
 
 
