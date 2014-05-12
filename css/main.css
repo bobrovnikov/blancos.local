@@ -353,7 +353,9 @@ body {
 }
 
 .side-column {
-    overflow: hidden;
+    float: left;
+    /*width: 248px;*/
+    width: 272px; /* widescreen */
     padding-left: 31px;
 }
 
@@ -409,10 +411,24 @@ body {
     border-bottom: 1px solid #e0dab8;
 }
 
+.tournament-table thead {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.tournament-table tbody {
+    font-size: 12px;
+}
+
+.tournament-table tbody td {
+    padding: 4px;
+}
+
 .articles-block {
     padding: 25px 0;
     background: url(../img/articles-background.png) no-repeat 0 0;
     background-size: cover;
+    margin-bottom: 25px;
 }
 
 .articles-block h2 {
@@ -447,9 +463,15 @@ body {
     text-decoration: none;
 }
 
+.posts-column {
+    float: left;
+    width: 215px;
+    margin-right: 33px;
+}
+
 .content footer {
     background: rgb(237, 237, 237);
-    padding: 10px 10px 10px 30px;
+    padding: 10px 0;
     color: #8e8e8e;
     font-size: 13px;
     border-radius: 0 0 0 7px;
