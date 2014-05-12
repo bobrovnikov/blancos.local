@@ -113,6 +113,7 @@ body {
 
 .layout {
     width: 100%;
+    min-width: 1000px;
     table-layout: fixed;
     margin-bottom: 1px;
 }
