@@ -187,7 +187,7 @@ body {
 }
 
 .main-menu a:hover {
-    background: rgba(255, 255, 255, .4);
+    background: rgba(255, 255, 255, .1);
 }
 
 .main-menu li:hover + li:before {
@@ -209,7 +209,7 @@ body {
 }
 
 .menu-arrow {
-    padding-left: 8px;
+    padding-left: 0;
 }
 
 .sidebar-info {
@@ -221,6 +221,10 @@ body {
 
 .sidebar-info a {
     color: #bdbdbd;
+}
+
+.sidebar-info a:hover {
+    color: #fff;
 }
 
 .sidebar footer {
@@ -241,8 +245,7 @@ body {
 
 .content-width {
     padding: 0 15px 0 30px;
-    max-width: 1090px;
-    min-width: 715px;
+    width: 1090px;
 }
 
 .social-links {
@@ -326,8 +329,8 @@ body {
 
 .post-title {
     font-family: Scada, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 20px;
     font-weight: bold;
     color: #000;
     text-decoration: none;
@@ -335,8 +338,14 @@ body {
     position: relative;
 }
 
+.post-title:hover {
+    color: #e41d44;
+    border-bottom: 1px solid #f9bbc8;
+}
+
 .post-text {
     line-height: 18px;
+    padding-top: 6px;
 }
 
 .main-post-preview {
@@ -393,6 +402,10 @@ body {
     line-height: 11px;
     color: black;
     border-bottom: 1px solid #c0bdae;
+}
+
+.arrow-link:hover > span {
+    border: 0 !important;
 }
 
 .match .arrow-link {
@@ -518,7 +531,7 @@ body {
 }
 
 .articles-block {
-    padding: 25px 0;
+    padding: 11px 0 25px 0;
     background: url(../img/articles-background.png) no-repeat 0 0;
     background-size: cover;
     margin-bottom: 25px;
@@ -526,12 +539,14 @@ body {
 
 .articles-block h2 {
     color: #e9e9e9;
+    font-size: 20px;
 }
 
 .articles-row .post-preview {
     float: left;
     width: 205px;
     margin-right: 45px;
+    border-top: 0;
 }
 
 .articles-row .post-date {
@@ -540,6 +555,12 @@ body {
 
 .articles-row .post-title {
     color: #fff;
+    border-bottom: 1px solid #887974;
+}
+
+.articles-row .post-title:hover {
+    color: #fbc100;
+    border-bottom: 1px solid #74632d;
 }
 
 .articles-row .post-text {
@@ -550,7 +571,7 @@ body {
 .articles-row .post-author {
     color: #fff;
     background: url(../img/user-male-white.png) no-repeat 0 center;
-    padding: 3px 0 3px 15px;
+    padding: 3px 0 3px 17px;
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
@@ -559,26 +580,35 @@ body {
 .posts-column {
     float: left;
     width: 215px;
-    margin-right: 33px;
+    margin-right: 40px;
 }
 
 .content footer {
     background: rgb(237, 237, 237);
-    padding: 10px 0;
+    padding: 24px 0 27px;
     color: #8e8e8e;
     font-size: 13px;
     border-radius: 0 0 0 7px;
+    line-height: 16px;
 }
 
 .content footer a {
     color: #8e8e8e;
 }
 
+.content footer a:hover {
+    color: #000;
+}
+
 .content footer small {
     font-size: 11px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1370px) {
+
+    .content-width {
+        width: 720px;
+    }
 
     .responsive-column {
         display: none;
@@ -589,6 +619,14 @@ body {
     }
 
     .articles-row .post-preview:last-child {
+        display: none;
+    }
+
+    .articles-row .post-preview:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .content-width .posts-column:last-child {
         display: none;
     }
 
