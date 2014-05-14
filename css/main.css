@@ -498,7 +498,8 @@ body {
 }
 
 .tournament-table {
-    padding-top: 15px;
+    padding: 15px 0;
+    border: 1px solid #e3ddbb;
 }
 
 .tournament-table table {
