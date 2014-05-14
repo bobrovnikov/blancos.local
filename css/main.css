@@ -204,8 +204,8 @@ body {
     line-height: 17px;
     font-family: Arial, sans-serif;
     background: rgba(255, 255, 255, .15);
-    border-radius: 6px;
-    padding: 0 3px;
+    border-radius: 8px;
+    padding: 1px 3px 0 3px;
 }
 
 .menu-arrow {
