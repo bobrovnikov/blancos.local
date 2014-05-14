@@ -375,7 +375,7 @@ body {
 
 .side-column {
     float: left;
-    width: 272px;
+    width: 190px;
     padding-left: 31px;
 }
 
@@ -618,10 +618,6 @@ body {
 
     .responsive-column {
         display: none;
-    }
-
-    .side-column {
-        width: 190px;
     }
 
     .articles-row .post-preview:last-child {
