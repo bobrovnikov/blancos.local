@@ -536,6 +536,75 @@ body {
     margin-left: 21px;
 }
 
+.block-forum {
+    padding-top: 15px;
+}
+
+.block-forum h2 {
+    font-family: Scada, Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+.forum-ticker {
+    display: inline-block;
+    margin: 0 0 0 3px;
+    background: #dd294e;
+    color: #fff;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    padding: 2px 5px 2px 3px;
+    border-radius: 7px;
+    position: absolute;
+    margin-top: -4px;
+}
+
+.block-forum .forum-posts {
+
+}
+
+.block-forum .forum-post-item {
+
+}
+
+.block-forum .forum-post-author {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    background: url(../img/user-male.png) no-repeat 0 2px;
+    padding: 0 0 0 13px;
+    font-size: 12px;
+}
+
+.block-forum .forum-post-item h3 {
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 13px;
+    margin: 5px 0 15px 0;
+}
+
+.block-forum .forum-post-item h3 a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #c7c7c7;
+}
+.block-forum .forum-post-item h3 a:hover {
+    color: #e41d44;
+    border-bottom: 1px solid #f9bbc8;
+}
+
+.block-forum .arrow-link {
+    background: #e8fafe;
+}
+
+.block-forum .arrow-link:after {
+    border-left: 12px solid #e8fafe;
+}
+
+.block-forum .arrow-link > span {
+    border-bottom: 1px solid #c0d2d6;
+}
+
 .articles-block {
     padding: 11px 0 25px 0;
     background: url(../img/articles-background.png) no-repeat 0 0;
