@@ -146,7 +146,7 @@ body {
     content: "";
     display: block;
     height: 1px;
-    margin: 3px 0 1px 19px;
+    margin: 3px 0 1px 13px;
     background: rgba(255, 255, 255, .2);
     background: -moz-linear-gradient(left, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
     background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,.2)), color-stop(60%,rgba(255, 255, 255, 0)), color-stop(100%,rgba(255, 255, 255, 0)));
