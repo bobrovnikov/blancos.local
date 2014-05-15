@@ -116,6 +116,7 @@ body {
     min-width: 990px;
     table-layout: fixed;
     margin-bottom: 1px;
+    position: relative;
 }
 
 .layout td {
@@ -127,7 +128,6 @@ body {
 }
 
 .sidebar {
-    position: relative;
     width: 216px;
 }
 
